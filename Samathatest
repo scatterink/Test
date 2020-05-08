@@ -1,0 +1,84 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <title>JS Bin</title>
+  
+   <script src="assets/icons/feather.js"></script>
+  
+  
+      
+     
+     <script>
+    $(".trigger-icon").hover(function(){
+     $(".icon-container").append('<i data-feather="grid"></i>');
+    }, function(){
+     $(".icon-container").empty();
+    });
+});
+</script>
+</head>
+<body>
+
+       
+       <p>Hover the mouse pointer over this paragraph.</p>
+        <p></p>
+       
+        
+        
+         <!-- ============================================================== -->
+                        <!-- TABLE-->
+                        <!-- ============================================================== --> 
+      <p>
+    <div class="container-fluid">
+     <div class="table-responsive">
+        <table class="table table-striped table-sm table-hover">
+          <thead>
+            <tr>
+              <th class=" text-center">Item#</th>
+              <th class=" text-center">Item Name</th>
+              <th class=" text-center">Qty</th>
+      
+          </thead>
+          <tbody>
+            <tr>
+              <td>1,001</td>
+              <td>Apple <span class="icon-container"> </span></td>
+              <td class=" text-right">5</td>
+             
+            </tr>
+            <tr>
+              <td>1,002</td>
+              <td>Kidney Beans</td>
+              <td class=" text-right">3</td>
+     
+            </tr>
+  
+                          <button type="button" class="btn btn-sm btn-btn-light dropdown-toggle" data-toggle="dropdown"><span data-feather="crop"></span> TRIAL </button>
+        
+        </p>
+        
+        
+        
+        
+        
+       
+           <!-- JAVA SCRIPT FOR CLOCK ON SIDE BAR - WRITTEN BY RUNAR STOCK FLOW - REMEMBER TO COMPENSATE IF THIS GOES GOOD -->
+           
+         
+<script>
+      feather.replace()
+    </script>
+
+           
+        </div>
+    </div>
+</body>   
+
+       
+             
+
